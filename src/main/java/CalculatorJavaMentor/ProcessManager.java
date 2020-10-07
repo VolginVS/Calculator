@@ -10,6 +10,7 @@ import java.io.IOException;
 
 
 public class ProcessManager {
+    
     private ProcessData processData;
     
     public void inputValues() throws IOException,Exception{      

@@ -21,6 +21,7 @@ public class OutputProcess {
             System.out.println("Result: \n"+romanResult+"\n");
         }
     }  
+    
     public String convertArabianToRoman(int result, String romanResult, int order) throws Exception{
         int digit; 
         digit=result/(int)pow(10, order);        
